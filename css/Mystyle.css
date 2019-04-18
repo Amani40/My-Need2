@@ -1,0 +1,191 @@
+body{
+    background-image: url("img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+	font-family: sans-serif;
+}
+/*------------------*/
+footer, header {
+  display: block; 
+}
+header.special {
+  text-align: center;
+  margin-bottom: 4rem; }
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.5);
+    padding: 40px;
+   }
+
+   /*---------------------------------- */
+   
+
+#header {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  background: #470303;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  height: 3.25rem;
+  left: 0;
+  line-height: 3.25rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001; }
+  #header > .logo {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 1.25rem;
+    text-decoration: none; }
+  
+/* take */
+
+.catogry-img {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.catogry {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+cursor: pointer;  
+}
+
+.catogry > div:first-of-type {
+  padding: 0 5px;
+}
+
+.catogry h3 {
+  font-size: 1.8em;
+}
+
+.catogry ul {
+  list-style-type: disc;
+  flex-direction: column;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  margin-left: 50px;
+  width: 550px;
+  font-weight: bold;
+}
+
+.catogry-need {
+  max-height: 400px;
+  width: 0px;
+  overflow: hidden;
+  transition: width 2s;
+}
+
+.catogry-need.show {
+  width: 600px;
+}
+
+.catogry-img:hover .more-info {
+  opacity: 1;
+}
+
+#mall-img {
+    background-image: url("img/shop.png");   
+  }
+#pharmacy-img{ 
+    background-image: url("img/pharmc.jpg");
+  }
+/*----------------------------*/
+#car-img {
+    background-image: url("img/cars.jpg");   
+  }
+
+#grocery-img {
+    background-image: url("img/1.png");   
+  }
+  /*-----------------------------*/
+  h1 { color: #d54d7b; 
+    font-family: 'Rouge Script',"Great Vibes", cursive; 
+    font-size: 115px;
+    line-height: 160px; 
+    font-weight: normal; 
+    margin-bottom: 0px;
+    margin-top: 40px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+ }
+ 
+ }
+ h2 { color: #5631da; 
+    font-family: 'Rouge Script',"Great Vibes", cursive; 
+    font-size: 45px;
+    line-height: 100px; 
+    font-weight: normal; 
+    margin-bottom: 0px;
+    margin-top: 40px; 
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff;
+ }
+
+  * {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+
+.content-output {
+	float: left;
+	box-sizing: border-box;
+	background: #f099f9;
+	padding: .5rem;
+	width: calc(20% - 1rem);
+	height: 10rem;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	color: #e6d4d4;
+}
+
+.content-input {
+	float: left;
+	box-sizing: border-box;
+	margin-left: 2rem;
+	padding: .5rem;
+	width: calc(50% - 1rem);
+	height: 10rem;
+	border: 1px solid #505050;
+	resize: none;
+}
+
+.save-button {
+	-webkit-appearance: none;
+	border: 0;
+	background: #0088ff;
+	padding: .5rem 1rem;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 1rem;
+	float: right;
+	cursor: pointer;
+}
